@@ -16,7 +16,7 @@ export const TaskCounter = () => {
     },
     { active: 0, completed: 0 }
   );
-
+  //
   return (
     <div>
       <p className={css.text}>Active: {count.active}</p>
