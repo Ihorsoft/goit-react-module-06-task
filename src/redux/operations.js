@@ -15,8 +15,6 @@ export const fetchTasks = createAsyncThunk(
   }
 );
 
-// src/redux/operations.js
-
 export const addTask = createAsyncThunk(
   "tasks/addTask",
   async (text, thunkAPI) => {
